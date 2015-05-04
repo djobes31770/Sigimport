@@ -36,7 +36,6 @@ public class SigImport
     public static void Main(string[] args)
     {
         SigImport si = new SigImport();
-        //si.Run(args[0]);
-        si.Run("c:\\Users\\jobesd\\web2py\\web2py\\applications\\SnortRules\\vrt.rules");
+        si.Run(args[0]);
     }
 }
